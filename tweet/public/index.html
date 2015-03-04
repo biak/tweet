@@ -1,0 +1,40 @@
+<html >
+<head>
+<link href="css/semantic.css" rel="stylesheet"/>
+<script src="js/angular.min.js"></script>
+<script src="controllers/controller.js"></script></head>
+<body  ng-app="">
+<div style=" margin-left: auto; margin-right: auto; width: 50%; " ng-controller="demoCtrl">
+<h1 style="color:green">{{message}}</h1>
+<table class="ui celled table ui collapsing table ui inverted blue table " >
+	<thead>
+		<tr>
+			<th>No.</th>
+			<th>Name</th>
+			<th>Twitter Handle</th>
+			<th>Text</th>
+			<th>RT count</th>
+		</tr>	
+		
+	</thead>	
+	<tbody>
+		<tr ng-repeat = "tweet in tweets">
+			<td> {{$index + 1}}</td>
+			<td>
+				{{tweet.name}}
+			</td>
+			<td>
+				{{tweet.screenname}}
+			</td>
+			<td>
+				{{tweet.text}}
+			</td>
+			<td>
+				{{tweet.count}}
+			</td>
+			
+	</tbody>
+</table>
+</div>
+</body>
+</html>

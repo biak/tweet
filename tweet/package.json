@@ -1,0 +1,28 @@
+{
+  "name": "tweet",
+  "version": "0.0.0",
+  "description": "ERROR: No README data found!",
+  "main": "tweet.js",
+ "dependencies": {
+    "body-parser": "^1.10.2",
+    "mongojs": "^0.18.1",
+    "multer": "^0.1.7",
+    "node-twitter-api": "^1.5.0",
+    "twit": "^1.1.19",
+    "express": "^4.11.1",
+    "npm": "^1.4.28",
+    "twitter": "^1.2.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/biak/tweet.git"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/biak/tweet/issues"
+  }
+}
