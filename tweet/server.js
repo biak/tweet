@@ -37,5 +37,5 @@ client.get('favorites/list', function(error, tweets, response){
 });
 	
 });
-app.listen(3000);
+app.listen(process.env.PORT || 5000);
 
