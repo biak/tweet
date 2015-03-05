@@ -5,7 +5,7 @@ var Twitter = require('twit');
 var dbCon = require('mongojs').connect('mongodb://bk:bk123@ds061558.mongolab.com:61558/clienttable');
 var db = dbCon.collection('tweet');
 
-app.use(express.static(path.join(__dirname, 'publictweet'))); 
+app.use(express.static(path.join(__dirname, 'public'))); 
 
 var client = new Twitter({
   consumer_key: '9wKcujVrvjQVAnvbojfGNLoGY',
